@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Sheila</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">EXPERIENCIA</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULO</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTAME</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/SHEILA.jpg" alt="">
+            </div>
+            <h1>SHEILA SANCHEZ</h1>
+            <h2>Sheila Sanchez - técnica En Desarrollo En Software Y Diseñadora Gráfica</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/share/1DFjiChcRd/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/asheilalinda?utm_source=qr&igsh=NGFoemZnOW5mZmlj"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/ShDa3"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola Soy Sheila Sánchez </span> Diseñadora Gráfica; recibida en técnica en Software</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                             22 DE AGOSTO DEL 2000.
+                        </li>
+                        <li>
+                            <strong>Celular</strong>
+                            3734-489797
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                           asheilalinda@gmail.com
+                        </li>
+                        <li>
+                            <strong>Nombre Completo</strong>
+                            Sheila; Daiana Sánchez
+                        </li>
+                        <li>
+                            <strong>Localidad</strong>
+                            Machagai-Chaco
+                        </li>
+                        <li>
+                            <strong>Estudios  </strong>
+                            <span> Primario; Segundario Y Terciario Completo</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                           <i class="fa-sharp-duotone fa-regular fa-circle-user"></i>
+                            <span>DIVERTIRSE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-duotone fa-solid fa-users"></i>
+                            <span>SALIR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                            <span>PC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-language"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-user-graduate"></i>
+                            <span>ESTUDIAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa fa-globe" aria-hidden="true"></i>
+                            <span>GOOGLEAR</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="img/docs/cv.pdf" class="myButton">MI CV</a>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Experiencia</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Profesión Laboral</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>5%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>71%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CANVA</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Profesión Personal</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyectos Realizados</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculo</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Diseño Gráfica</h4>
+                        <span class="casa">Curso</span>
+                        <span class="fecha">2019-2024</span>
+                        <p>Aprendí A Diseñar Imágenes; Videos; Editar Con Photoshop, Crear Contenidos; edición de imagen; etc. También Aprendí A Diseñar CorelDraw: Logos; Imágenes; ETC.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4> Intituto Machagai-Chaco</h4>
+                        <span class="casa">Tecnicatura Superior En Dessallo En Software</span>
+                        <span class="fecha">2019-2022</span>
+                        <p>Desarrollo De La Carrera En Software creo, diseño, despliego y corrigo software de todo tipo. Descubro cómo se hace, qué formación tiene y cuáles son las habilidades para poder realizar trabajos correctamente. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso Programacion Informatorio </h4>
+                        <span class="casa">Informatorio Virtual</span>
+                        <span class="fecha">2025</span>
+                        <p>Aprendiendo A Programar Con Html; Css; Consola;github y git; Iniciando En El Mundo De Programación y Aprendiendo Más Base De Lo Aprendido </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Trabajo Con Negocio Pequeño</h4>
+                        <span class="casa">Trabajo Propio Diseño Gráfico</span>
+                        <span class="fecha">2024</span>
+                        <p>Trabajo Como Diseñadora En Creación Virtual; Flasher Con imagen Y Videos Largos o Movimientos; también trabajo Con La Creación De Logos; Imágenes Personalizadas; etc.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Experiencia de trabajo</h4>
+                        <span class="casa">Negocio</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Trabajo Con Venta De Carteras Y Joyas; En Vender; y en Parte Técnologica En Realización De Páginas Web Ya Sea En Programar o Modificación En Páginas Diseñadas.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Experiencia de trabajo</h4>
+                        <span class="casa">Trabajo En Redes Sociales</span>
+                        <span class="fecha">2023</span>
+                        <p>Trabajo Con La Modificación Y Creación De Redes; Actualizando Y Subiendo Actualización O Contenidos Nuevos En Las Redes Sociales</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Diseño-2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Diseño Gráfico</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/fondo.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Programación</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Software-2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Computadora</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/programacion-1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Lenguaje De Programación</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/programacion-2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Programación</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/ccc.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Diseño</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- footer -->
+    <footer> <section id="contacto" class="contacto">Contactame</section>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/share/1DFjiChcRd/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/asheilalinda?utm_source=qr&igsh=NGFoemZnOW5mZmlj"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/ShDa3"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
